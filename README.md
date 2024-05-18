@@ -8,6 +8,7 @@ Minio in DSN:
 http://dsn:9001
 
 Run Frontend: yarn dev
+
 Run Backend: go run main.go
 
 
