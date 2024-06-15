@@ -29,7 +29,7 @@ func main() {
 
 	// Initialize minio client object.
 	minioClient, err := minio.New(viper.GetString("minio.host")+":"+viper.GetString("minio.port"), &minio.Options{
-		Creds:  credentials.NewStaticV4("EneudJTZpjRIZuFYq6MF", "eo1uLxOg33oeuOHbI7kokmSNSp1AgJTfw1QMWLda", ""),
+		Creds:  credentials.NewStaticV4("HDeAly8XddiQTvjjTRfL", "9OtiaCEOL1586uDgPAXNANDndM04ga3oMdGy7kGF", ""),
 		Secure: false,
 	})
 
