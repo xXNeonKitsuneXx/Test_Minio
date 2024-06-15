@@ -21,8 +21,8 @@ function App() {
       {url && (
         <img
           className="w-40 rounded"
-          key={`http://199.241.138.79:9000/testminio/${url}`}
-          src={`http://199.241.138.79:9000/testminio/${url}`}
+          key={`https://minio.bocchikitsunei.com/testminio/${url}`}
+          src={`https://minio.bocchikitsunei.com/testminio/${url}`}
         />
       )}
       <input type="file" onChange={handleFileChange} />
